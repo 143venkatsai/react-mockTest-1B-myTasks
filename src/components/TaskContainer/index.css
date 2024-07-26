@@ -1,0 +1,108 @@
+.task-container {
+  display: flex;
+  flex-direction: row;
+  min-height: 100vh;
+}
+
+.create-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #1a171d;
+  width: 35%;
+  padding: 50px 30px;
+}
+
+.create-heading {
+  font-family: 'Roboto';
+  font-size: 30px;
+  font-weight: 500;
+  color: #f3aa4e;
+  align-self: center;
+  margin-bottom: 20px;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.label-element {
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 500;
+  color: #f8f8f8;
+  padding-bottom: 8px;
+}
+
+.input-element {
+  font-family: 'Roboto';
+  font-size: 16px;
+  background-color: #f8f8f8;
+  border: none;
+  border-radius: 2px;
+  padding: 8px 15px;
+  margin-bottom: 20px;
+  outline: none;
+}
+
+.add-button {
+  align-self: center;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 500;
+  color: #ffffff;
+  background-color: #f3aa4e;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  margin-top: 10px;
+  outline: none;
+  cursor: pointer;
+}
+
+.tags-task-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #000000;
+  padding: 45px 15px;
+  width: 65%;
+}
+
+.tags-heading {
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: 500;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.tags-list {
+  padding-left: 0px;
+  display: flex;
+  flex-direction: row;
+  margin-top: 0px;
+}
+
+.task-heading {
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: 500;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.no-tags {
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: 500;
+  color: #f1f5f9;
+  align-self: center;
+  margin-top: 80px;
+}
+
+.task-list {
+  padding-left: 0px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 0px;
+}
